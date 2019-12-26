@@ -29,3 +29,6 @@ Creation of a patch is simple and easy:
 3. Commit your changes to the `PaperSpigot-Server` or `PaperSpigot-API` subdirectories
 4. Return to the parent directory and execute the `./rebuildPatches.sh` script
     * This will automatically generate your new patch files for your code
+    
+    ##THIS IS COMPARTIBLE WITH FIREFLYX##
+    FireflyX > https://github.com/DeprecatedLuke/fireflyx
