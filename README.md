@@ -30,5 +30,5 @@ Creation of a patch is simple and easy:
 4. Return to the parent directory and execute the `./rebuildPatches.sh` script
     * This will automatically generate your new patch files for your code
     
-    ##THIS IS COMPARTIBLE WITH FIREFLYX##
+## THIS IS COMPARTIBLE WITH FIREFLYX ##
     FireflyX > https://github.com/DeprecatedLuke/fireflyx
