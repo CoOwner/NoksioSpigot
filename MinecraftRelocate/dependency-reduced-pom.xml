@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>paperspigot-parent</artifactId>
+    <groupId>org.github.paperspigot</groupId>
+    <version>dev-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.github.paperspigot</groupId>
+  <artifactId>minecraft-server-relocated</artifactId>
+  <name>Minecraft Server Relocation</name>
+  <version>1.7.10-SNAPSHOT</version>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>2.3</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <relocations>
+            <relocation>
+              <pattern>net.minecraft.util.com.google</pattern>
+              <shadedPattern>com.google</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>net.minecraft.util.gnu</pattern>
+              <shadedPattern>gnu</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>net.minecraft.util.io</pattern>
+              <shadedPattern>io</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>net.minecraft.util.org</pattern>
+              <shadedPattern>org</shadedPattern>
+            </relocation>
+          </relocations>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+

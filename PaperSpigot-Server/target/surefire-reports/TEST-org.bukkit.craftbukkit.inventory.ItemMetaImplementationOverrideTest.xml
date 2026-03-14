@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="96" failures="0" name="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" time="0.037" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Administrateur\Desktop\Dev\PaperProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrateur\Desktop\Dev\PaperProject"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Administrateur\eclipse-workspace-spigot\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6727483877678878065.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;%JAVA_HOME%\bin;C:\Users\Administrateur\Desktop\Dev\apache-maven-3.5.4\bin;C:\Windows\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrateur"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Administrateur"/>
+    <property name="java.class.path" value="C:\Users\Administrateur\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Administrateur\Desktop\Dev\PaperProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[0]:CraftMetaSkull contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[1]:CraftMetaSkull contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[2]:CraftMetaSkull contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[3]:CraftMetaSkull contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[4]:CraftMetaSkull contains isEmpty]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[5]:CraftMetaSkull contains serialize]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[6]:CraftMetaSkull contains applyToItem]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[7]:CraftMetaSkull contains applicableTo]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[8]:CraftMetaSkull contains notUncommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[9]:CraftMetaSkull contains equalsCommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[10]:CraftMetaSkull contains applyHash]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[11]:CraftMetaSkull contains annotation interface org.bukkit.configuration.serialization.DelegateDeserialization]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[12]:CraftMetaFirework contains clone]" time="0.001"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[13]:CraftMetaFirework contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[14]:CraftMetaFirework contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[15]:CraftMetaFirework contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[16]:CraftMetaFirework contains isEmpty]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[17]:CraftMetaFirework contains serialize]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[18]:CraftMetaFirework contains applyToItem]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[19]:CraftMetaFirework contains applicableTo]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[20]:CraftMetaFirework contains notUncommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[21]:CraftMetaFirework contains equalsCommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[22]:CraftMetaFirework contains applyHash]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[23]:CraftMetaFirework contains annotation interface org.bukkit.configuration.serialization.DelegateDeserialization]" time="0.001"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[24]:CraftMetaMap contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[25]:CraftMetaMap contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[26]:CraftMetaMap contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[27]:CraftMetaMap contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[28]:CraftMetaMap contains isEmpty]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[29]:CraftMetaMap contains serialize]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[30]:CraftMetaMap contains applyToItem]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[31]:CraftMetaMap contains applicableTo]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[32]:CraftMetaMap contains notUncommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[33]:CraftMetaMap contains equalsCommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[34]:CraftMetaMap contains applyHash]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[35]:CraftMetaMap contains annotation interface org.bukkit.configuration.serialization.DelegateDeserialization]" time="0.003"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[36]:CraftMetaPotion contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[37]:CraftMetaPotion contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[38]:CraftMetaPotion contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[39]:CraftMetaPotion contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[40]:CraftMetaPotion contains isEmpty]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[41]:CraftMetaPotion contains serialize]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[42]:CraftMetaPotion contains applyToItem]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[43]:CraftMetaPotion contains applicableTo]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[44]:CraftMetaPotion contains notUncommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[45]:CraftMetaPotion contains equalsCommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[46]:CraftMetaPotion contains applyHash]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[47]:CraftMetaPotion contains annotation interface org.bukkit.configuration.serialization.DelegateDeserialization]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[48]:CraftMetaLeatherArmor contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[49]:CraftMetaLeatherArmor contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[50]:CraftMetaLeatherArmor contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[51]:CraftMetaLeatherArmor contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[52]:CraftMetaLeatherArmor contains isEmpty]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[53]:CraftMetaLeatherArmor contains serialize]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[54]:CraftMetaLeatherArmor contains applyToItem]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[55]:CraftMetaLeatherArmor contains applicableTo]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[56]:CraftMetaLeatherArmor contains notUncommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[57]:CraftMetaLeatherArmor contains equalsCommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[58]:CraftMetaLeatherArmor contains applyHash]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[59]:CraftMetaLeatherArmor contains annotation interface org.bukkit.configuration.serialization.DelegateDeserialization]" time="0.001"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[60]:CraftMetaEnchantedBook contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[61]:CraftMetaEnchantedBook contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[62]:CraftMetaEnchantedBook contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[63]:CraftMetaEnchantedBook contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[64]:CraftMetaEnchantedBook contains isEmpty]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[65]:CraftMetaEnchantedBook contains serialize]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[66]:CraftMetaEnchantedBook contains applyToItem]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[67]:CraftMetaEnchantedBook contains applicableTo]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[68]:CraftMetaEnchantedBook contains notUncommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[69]:CraftMetaEnchantedBook contains equalsCommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[70]:CraftMetaEnchantedBook contains applyHash]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[71]:CraftMetaEnchantedBook contains annotation interface org.bukkit.configuration.serialization.DelegateDeserialization]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[72]:CraftMetaCharge contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[73]:CraftMetaCharge contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[74]:CraftMetaCharge contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[75]:CraftMetaCharge contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[76]:CraftMetaCharge contains isEmpty]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[77]:CraftMetaCharge contains serialize]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[78]:CraftMetaCharge contains applyToItem]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[79]:CraftMetaCharge contains applicableTo]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[80]:CraftMetaCharge contains notUncommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[81]:CraftMetaCharge contains equalsCommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[82]:CraftMetaCharge contains applyHash]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[83]:CraftMetaCharge contains annotation interface org.bukkit.configuration.serialization.DelegateDeserialization]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[84]:CraftMetaBook contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[85]:CraftMetaBook contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[86]:CraftMetaBook contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[87]:CraftMetaBook contains clone]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[88]:CraftMetaBook contains isEmpty]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[89]:CraftMetaBook contains serialize]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[90]:CraftMetaBook contains applyToItem]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[91]:CraftMetaBook contains applicableTo]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[92]:CraftMetaBook contains notUncommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[93]:CraftMetaBook contains equalsCommon]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[94]:CraftMetaBook contains applyHash]" time="0"/>
+  <testcase classname="org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest" name="testClass[[95]:CraftMetaBook contains annotation interface org.bukkit.configuration.serialization.DelegateDeserialization]" time="0"/>
+</testsuite>

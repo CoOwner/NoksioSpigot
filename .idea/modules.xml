@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MinecraftServer/minecraft-server.iml" filepath="$PROJECT_DIR$/MinecraftServer/minecraft-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinecraftRelocate/minecraft-server-relocated.iml" filepath="$PROJECT_DIR$/MinecraftRelocate/minecraft-server-relocated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaperSpigot-Server/noksiospigot.iml" filepath="$PROJECT_DIR$/PaperSpigot-Server/noksiospigot.iml" />
+    </modules>
+  </component>
+</project>

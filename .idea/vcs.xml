@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Bukkit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CraftBukkit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PaperSpigot-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PaperSpigot-Server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spigot-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spigot-Server" vcs="Git" />
+  </component>
+</project>
