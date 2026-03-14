@@ -34,9 +34,3 @@ manifest.mf
 
 # Linux temp files
 *~
-
-# other stuff
-Spigot-API
-Spigot-Server
-PaperSpigot-Server
-PaperSpigot-API

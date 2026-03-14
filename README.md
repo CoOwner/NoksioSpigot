@@ -29,3 +29,17 @@ Creation of a patch is simple and easy:
 3. Commit your changes to the `PaperSpigot-Server` or `PaperSpigot-API` subdirectories
 4. Return to the parent directory and execute the `./rebuildPatches.sh` script
     * This will automatically generate your new patch files for your code
+
+## 2026 Update ##
+This is legacy code originally written in 2018. The repository was officially released on September 21, 2019.
+
+I later realized the project was not properly pushed at the time due to an oversight with `.gitignore` — a classic 2019 rookie mistake.
+
+This project is compatible with FireflyX, FireFly4, and, to the best of my knowledge, it was also supported by FireflyAI.
+
+**Reason for sharing:**  
+The code is now nearly eight years old since development began. I no longer have any practical use for it. It is not the proudest work, and I do not feel the need to keep it archived privately.
+Shoutout to vexus.gg for preserving the memories. Everything should now be properly committed and pushed.
+
+## Links ##
+FireflyX > `https://github.com/DeprecatedLuke/fireflyx`
